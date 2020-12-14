@@ -236,20 +236,19 @@ SEARCH BAR
     box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.274);
 }
 
-#item1 {
-    /* border: 1px solid red; */
-}
+/* #item1 {
+    border: 1px solid red;
+} */
 
-#item1>.camaro{
-    height: 70%;
+.camaro{
+    height: 60%;
     width: 100%;
     position: relative;
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs1.cdn.autoevolution.com%2Fimages%2Fnews%2Fgallery%2F2021-chevrolet-camaro-configurator-goes-live-starting-price-is-unchanged_3.jpg&f=1&nofb=1');
+    background-image: url('https://http2.mlstatic.com/chevrolet-camaro-D_NQ_NP_780644-MLA44124615766_112020-F.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 4px 4px 0px 0px;
-    /* background: none; */
     /* border: 1px solid blue; */
 }
 
@@ -259,8 +258,72 @@ SEARCH BAR
     padding: 10px 10px 5px 10px;
 }
 
+.container-anio-km {
+    background: none;
+    font-size: 10px;
+    padding: 0px 10px 3px ;
+    color: grey;
+    display: flex;
+}
+
+.anio {
+    background: none;
+}
+
+.separator {
+    background: none;
+    margin: 0px 3px;
+}
+
+.km {
+    background: none;
+}
+
 .description {
     background: none;
     font-size: 10px;
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px 30px 10px;
+}
+
+.place {
+    background: none;
+    font-size: 10px;
+    padding: 0px 10px ;
+    color: grey;
+}
+
+.lancha {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    background-image: url('https://http2.mlstatic.com/quicksilver-2700-c-volvo-300-hp-day-cruiser-D_NQ_NP_721771-MLA26444782475_112017-F.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px 4px 0px 0px;
+    /* border: 1px solid blue; */
+}
+
+.motocross {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_852208-MLA44105615179_112020-W.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px 4px 0px 0px;
+    /* border: 1px solid blue; */
+}
+
+.cuatri {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_764075-MLA44262133635_122020-W.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px 4px 0px 0px;
+    /* border: 1px solid blue; */
 }
