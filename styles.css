@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(238, 238, 238);
+}
+
+.banner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #ce93ff;
+    height: 100px;
+    box-shadow: 0px 0px 4px 1px rgb(110, 110, 110);
+    margin-bottom: 35px;
+    z-index: 1;
+}
+
+.isologo {
+    position: relative;
+    width: 150px;
+    margin: 15px;
+    background: #ce93ff;
+}
+
+.isologo>img {
+    width: 100%;
+    background: #ce93ff;
+}
+
+/*
+=============
+LOGIN BUTTON
+=============
+*/
+
+.login {
+    position: relative;
+    width: 110px;
+    height: 38px;
+    margin: 15px;
+    color: white;
+    background: #b357ff;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.login:hover {
+    background: white;
+    color: black;
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.144);
+}
+
+.login:active {
+    background: rgb(228, 228, 228);
+}
+
+/*
+=============
+LOGIN BUTTON
+=============
+*/
+
+/*
+=============
+REGISTER BUTTON
+=============
+*/
+
+.register {
+    position: relative;
+    width: 120px;
+    height: 38px;
+    color: white;
+    background: #b357ff;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.register:hover {
+    background: rgb(0, 180, 15);
+    color: rgb(255, 255, 255);
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.144);
+}
+
+.register:active {
+    background: rgb(0, 255, 21);
+}
+/*
+=============
+REGISTER BUTTON
+=============
+*/
+
+/*
+=============
+CARRITO BUTTON
+=============
+*/
+
+.carrito {
+    position: relative;
+    width: 50px;
+    height: 36px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    outline: none;
+}
+
+.carrito>img {
+    width: 50px;
+    height: 38px;
+    border-radius: 4px;
+    background: #b357ff;
+}
+
+.carrito>img:hover {
+    background: rgb(0, 180, 15);
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.144);
+}
+
+.carrito>img:active {
+    background: rgb(0, 255, 21);
+}
+
+/*
+=============
+CARRITO BUTTON
+=============
+*/
+
+/*
+=============
+SEARCH BAR
+=============
+*/
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.2;
+    border-radius: 4px;
+}
+
+.searchbar {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    border-radius: 4px;
+}
+
+.searchbar__input {
+    flex-grow: 1;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #b357ff;
+    background: white;
+}
+
+.searchbar__input::placeholder {
+    color: rgb(121, 121, 121);
+    border-radius: 4px;
+}
+
+.searchbar__button {
+    width: 50px;
+    background: #b357ff;
+    color:  white;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+#lupa {
+    background:  #b357ff;
+    border-radius: 4px;
+}
+
+.searchbar__button:active {
+    color: rgb(235, 235, 235);
+}
+
+/*
+=============
+SEARCH BAR
+=============
+*/
+
+.product-container {
+    margin: 0 auto;
+    width: 1140px;
+    height: 100%;
+    /* background: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 15px 15px;
+    width: 250px;
+    height: 300px;
+    background: white;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    padding: 10px;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.274);
+}
+
+#item1 {
+    border: 1px solid red;
+}
+
+#item1>img {
+    background: none;
+    width: 248px;
+    height: 224px;
+    border: 1px solid blue;
+}
+
+#item1>span.price {
+    position: relative;
+    padding: 10px;
+    top: 1px;
+    font-size: 20px;
+    background: none;
+}
+
+#item1>span.description {
+    position: relative;
+    font-size: 15px;
+    background: none;
+    padding: px;
+    /* top: 30px;
+    left: -65px; */
+}
