@@ -229,7 +229,6 @@ SEARCH BAR
     background: white;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
-    padding: 10px;
 }
 
 .product:hover {
@@ -238,29 +237,30 @@ SEARCH BAR
 }
 
 #item1 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-#item1>img {
-    background: none;
-    width: 248px;
-    height: 224px;
-    border: 1px solid blue;
-}
-
-#item1>span.price {
+#item1>.camaro{
+    height: 70%;
+    width: 100%;
     position: relative;
-    padding: 10px;
-    top: 1px;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs1.cdn.autoevolution.com%2Fimages%2Fnews%2Fgallery%2F2021-chevrolet-camaro-configurator-goes-live-starting-price-is-unchanged_3.jpg&f=1&nofb=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px 4px 0px 0px;
+    /* background: none; */
+    /* border: 1px solid blue; */
+}
+
+.price {
+    background: none;
     font-size: 20px;
-    background: none;
+    padding: 10px 10px 5px 10px;
 }
 
-#item1>span.description {
-    position: relative;
-    font-size: 15px;
+.description {
     background: none;
-    padding: px;
-    /* top: 30px;
-    left: -65px; */
+    font-size: 10px;
+    padding: 0px 10px 10px 10px;
 }
